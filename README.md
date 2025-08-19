@@ -5,6 +5,7 @@ This project demonstrates a real-time **ETL (Extract, Transform, Load) pipeline*
 - **Apache Kafka** for message streaming  
 - **Apache Spark Structured Streaming** for data processing  
 - **PostgreSQL** as the storage layer  
+
 The pipeline ingests sample drug data from a Kafka Producer, processes it in Spark, and writes the results into PostgreSQL.  
 
 ##  Architecture  
@@ -20,7 +21,7 @@ The pipeline ingests sample drug data from a Kafka Producer, processes it in Spa
 - **Apache Spark 3.x (Structured Streaming)**  
 - **PostgreSQL 14+**  
 
-## 🔧 Setup Instructions  
+## Setup Instructions  
 
 ### 1. Clone the Repository  
 ```bash
@@ -34,7 +35,7 @@ source venv/bin/activate
 ```
 ### 3. Start Kafka & PostgreSQL
 -	Ensure Kafka broker and PostgreSQL server are running.
-- Update connection details in sparkConsumer.py if needed.
+- Update connection details in `sparkConsumer.py` if needed.
 
 ### 4. Run the Producer
 ```bash
