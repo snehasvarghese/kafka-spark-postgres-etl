@@ -8,3 +8,4 @@ __pycache__/
 # Ignore checkpoint data
 /tmp/kafka_spark_checkpoint/
 venv/
+steps for setting up environment.txt
